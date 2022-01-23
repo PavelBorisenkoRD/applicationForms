@@ -9,7 +9,7 @@ li {
 main {
   width: 210mm;
   height: 297mm;
-  background-color: white;
+  background-image:url("./img/tbodyback.jpeg");
   margin: 200px auto;
 
   border: 13px solid rgb(122, 108, 28);
