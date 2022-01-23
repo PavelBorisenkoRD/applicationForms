@@ -1,5 +1,5 @@
 body {
-  background: brown;
+  background-image: url("./img/background.jpg");
 }
 main {
   width: 210mm;
@@ -7,18 +7,24 @@ main {
   background-color: white;
   margin: 200px auto;
 
-  border: 13px solid lightgrey;
+  border: 13px solid rgb(122, 108, 28);
 }
 header {
-  background-color: green;
+  background-image: url("./img/headerback.jpg");
 }
 .firstname {
   font-weight: bold;
 }
 
 .avatar {
-  background-image: url("./img/userphoto.jpg"); 
-  width: 70px; 
-  height:70px;
+  background-image: url("./img/userphoto.jpg");
+  width: 250px;
+  height: 250px;
   background-size: cover;
+  border-radius: 50%;
+  padding:30px;
+}
+
+.firstname {
+  padding: 20px;
 }
