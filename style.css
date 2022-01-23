@@ -1,0 +1,24 @@
+body {
+  background: brown;
+}
+main {
+  width: 210mm;
+  height: 297mm;
+  background-color: white;
+  margin: 200px auto;
+
+  border: 13px solid lightgrey;
+}
+header {
+  background-color: green;
+}
+.firstname {
+  font-weight: bold;
+}
+
+.avatar {
+  background-image: url("./img/userphoto.jpg"); 
+  width: 70px; 
+  height:70px;
+  background-size: cover;
+}
