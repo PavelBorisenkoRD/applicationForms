@@ -51,6 +51,7 @@ header {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .contact-info {
@@ -67,6 +68,15 @@ header {
   padding-top: 30px;
 }
 
+.label {
+text-transform: uppercase;
+}
+
+.VUZ {
+    font-size: 70%;
+    margin-top: 5px;
+}
+
 .personal {
   border-bottom: 2px solid brown;
   padding-bottom: 30px;
@@ -75,3 +85,5 @@ header {
 .qualities {
   padding-top: 30px;
 }
+
+.item {margin-bottom: 15px;}
