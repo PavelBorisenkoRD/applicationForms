@@ -9,29 +9,47 @@ li {
 main {
   width: 210mm;
   height: 297mm;
-  background-image:url("./img/tbodyback.jpeg");
+  background-image: url("./img/tbodyback.jpeg");
   margin: 200px auto;
-
-  border: 13px solid rgb(122, 108, 28);
 }
 header {
+  display: flex;
+  justify-content: space-between;
   background-image: url("./img/headerback.jpg");
+  background-size: cover;
 }
+
+.main-info {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  text-transform: uppercase;
+}
+
+.job-title {
+  display: flex;
+  justify-self: end;
+  font-size: 20px;
+}
+
 .firstname {
   font-weight: bold;
 }
 
-.avatar {
-  background-image: url("./img/userphoto.jpg");
-  width: 250px;
-  height: 250px;
+.avatar img {
+  display: flex;
+  justify-content: right;
+  width: 100px;
+  height: 100px;
   background-size: cover;
   border-radius: 50%;
-  padding: 30px;
-}
-
-.firstname {
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .content {
@@ -44,7 +62,7 @@ header {
   flex-direction: column;
   border-right: 2px solid brown;
   padding: 0px 30px;
-  text-align: end;
+  text-align: start;
 }
 
 .title {
@@ -57,6 +75,7 @@ header {
 .contact-info {
   border-bottom: 2px solid brown;
   padding-bottom: 30px;
+  line-height: 30px;
 }
 
 .content-right {
@@ -69,35 +88,39 @@ header {
 }
 
 .label {
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .VUZ {
-    font-size: 70%;
-    margin-top: 5px;
+  font-size: 70%;
+  margin-top: 5px;
 }
 
 .personal {
   border-bottom: 2px solid brown;
   padding-bottom: 30px;
- 
 }
 
-.personal >p{
-    margin-bottom: 10px;
+.personal > p {
+  margin-bottom: 10px;
 }
 
-.experience {  border-bottom: 2px solid brown;
-    padding-bottom: 30px;}
+.experience {
+  border-bottom: 2px solid brown;
+  padding-bottom: 30px;
+}
 
 .qualities {
   padding-top: 30px;
+  line-height: 30px;
 }
 
-.item {margin-bottom: 15px;}
+.item {
+  margin-bottom: 15px;
+}
 
 .experience {
-    padding-top: 30px;
-    border-bottom: 2px solid brown;
+  padding-top: 30px;
+  border-bottom: 2px solid brown;
   padding-bottom: 30px;
 }
