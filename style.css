@@ -1,126 +1,54 @@
-body {
-  background-image: url("./img/background.jpg");
-  font-family: "Lato";
-}
-p,
-li {
-  opacity: 0.8;
-}
-main {
-  width: 210mm;
-  height: 297mm;
-  background-image: url("./img/tbodyback.jpeg");
-  margin: 200px auto;
-}
-header {
-  display: flex;
-  justify-content: space-between;
-  background-image: url("./img/headerback.jpg");
-  background-size: cover;
-}
-
-.main-info {
+.af {
   font-size: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  text-transform: uppercase;
+
+  padding: 30px;
 }
 
-.job-title {
-  display: flex;
-  justify-self: end;
-  font-size: 20px;
+.pi {
+  font-size: 30px;
+  padding: 20px;
 }
 
-.firstname {
-  font-weight: bold;
-}
 
-.avatar img {
-  display: flex;
-  justify-content: right;
-  width: 100px;
-  height: 100px;
+
+
+body {
+  background-image: url("/img/application.jpg");
   background-size: cover;
-  border-radius: 50%;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.content {
   display: flex;
-  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  
 }
 
-.content-left {
+
+.form {
   display: flex;
   flex-direction: column;
-  border-right: 2px solid brown;
-  padding: 0px 30px;
-  text-align: start;
+  padding: 20px;
+  box-shadow: 0 0 10px gray;
+  border-radius: 20px;
+  
 }
 
-.title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  text-transform: uppercase;
+
+
+.previous {
+
+  background-color: rgb(35, 226, 200);
+  text-decoration: none
+text-transform: uppercase;
+border-radius: 5px;
+text-decoration: none
 }
 
-.contact-info {
-  border-bottom: 2px solid brown;
-  padding-bottom: 30px;
-  line-height: 30px;
-}
-
-.content-right {
-  padding-left: 30px;
-  padding: 0px 30px;
-}
-
-.study {
-  padding-top: 30px;
-}
-
-.label {
-  text-transform: uppercase;
-}
-
-.VUZ {
-  font-size: 70%;
-  margin-top: 5px;
-}
-
-.personal {
-  border-bottom: 2px solid brown;
-  padding-bottom: 30px;
-}
-
-.personal > p {
-  margin-bottom: 10px;
-}
-
-.experience {
-  border-bottom: 2px solid brown;
-  padding-bottom: 30px;
-}
-
-.qualities {
-  padding-top: 30px;
-  line-height: 30px;
-}
-
-.item {
-  margin-bottom: 15px;
-}
-
-.experience {
-  padding-top: 30px;
-  border-bottom: 2px solid brown;
-  padding-bottom: 30px;
+.next {
+  
+  background-color: rgb(35, 226, 200);
+    text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none
+  
 }
