@@ -9,9 +9,6 @@
   padding: 20px;
 }
 
-
-
-
 body {
   background-image: url("/img/application.jpg");
   background-size: cover;
@@ -20,35 +17,40 @@ body {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  
 }
 
-
-.form {
+form {
   display: flex;
   flex-direction: column;
   padding: 20px;
   box-shadow: 0 0 10px gray;
   border-radius: 20px;
-  
 }
 
+input {
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid gray;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+}
 
+input:last-child{
+margin: 0;
+}
 
 .previous {
-
   background-color: rgb(35, 226, 200);
-  text-decoration: none
-text-transform: uppercase;
-border-radius: 5px;
-text-decoration: none
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .next {
-  
   background-color: rgb(35, 226, 200);
-    text-transform: uppercase;
+  text-transform: uppercase;
   border-radius: 5px;
-  text-decoration: none
-  
+  text-decoration: none;
 }
